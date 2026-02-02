@@ -4,6 +4,11 @@ int roll1 = dice.Next(1, 7);
 int roll2 = dice.Next(1, 7);
 int roll3 = dice.Next(1, 7);
 
+//Hard coding to test
+//int roll1 = 5;
+//int roll2 = 5;
+//int roll3 = 5;
+
 int total = roll1 + roll2 + roll3;
 
 Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
