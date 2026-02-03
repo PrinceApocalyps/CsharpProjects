@@ -23,9 +23,12 @@ Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to p
 //looping throgh arrays using foreach
 int[] inventory = { 2, 45, 800, 165, 220 };
 int sum = 0;
+int bin = 0;
 foreach (int items in inventory)
 {
     sum += items;
+    bin++;
+    Console.WriteLine($"Bin {bin} = {items} items (running total: {sum})");
 }
 
 Console.WriteLine($"We have {sum} items in inventory.");
